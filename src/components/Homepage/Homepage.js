@@ -100,6 +100,12 @@ function Homepage() {
                         <td>45</td>
                         <td>20</td>
                     </tr>
+                    <tr>
+                        <td>sharpness illusion</td>
+                        <td>32 in stock</td>
+                        <td>45</td>
+                        <td>20</td>
+                    </tr>
                 </tbody>
         </table>
         </div>
