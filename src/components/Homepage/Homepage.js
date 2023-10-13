@@ -11,9 +11,9 @@ function Homepage() {
         </div> 
         <div className='user-info'>
         <div className='search-box'>
-        <i className='fa-solid fa-search'></i>
-        <input type='text' className='search' placeholder='search'/>
-        </div>
+              <input type='text' className='search' placeholder='search'/>
+              <i className='fas fa-search'></i>
+            </div>
         </div>
       </div>
     </div>
