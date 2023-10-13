@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { FaArrowRight } from "react-icons/fa";
 import '../../../src/styles/styles.css';
 
 function Sidebar() {
     const [showSidebar, setShowSidebar] = useState(true);
+    const [hamburgerClass, setHamburgerClass] = useState('hamburger');
 
     const toggleSidebar = () => {
-        setShowSidebar(prevState => !prevState);
+        setShowSidebar(!showSidebar);
+        setHamburgerClass(showSidebar ? 'hamburger-min' : 'hamburger');
     };
 
     const [selectedItem, setSelectedItem] = useState(null);
@@ -25,7 +26,7 @@ function Sidebar() {
 
     return (
         <div>
-            <div className="hamburger" onClick={toggleSidebar}>
+            <div className={hamburgerClass} onClick={toggleSidebar}>
                 &#9776;
             </div>
             {showSidebar && (

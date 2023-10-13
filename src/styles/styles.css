@@ -8,20 +8,28 @@
     font-family: "Poppins",sans-serif;
 }
 
-.Sidebar{
-    position: sticky;
+.Sidebar {
+    position: stucky;
+    z-index: 1000;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 180px;
+    width: 200px;
     height: 100vh;
     padding: 0 1.7rem;
     color: white;
     overflow: hidden;
-    transition: all 0.5s linear;
+    transition: left 6s ease;
     background: #0B0C40;
 }
 
+.hamburger {
+    color: white;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+}
 .logo{
     height: 80px;
     padding: 16px;
@@ -322,6 +330,56 @@ tr:nth-child(even){
 
 @media only screen and (max-width: 600px) {
     .Sidebar {
+        position: fixed;
+        width: 200px;
+        padding: 0 1.7rem;
+    }
+    .hamburger-min{
+        color: black;
+    }
+    .menu li {
+        padding: 0.8rem;
+        margin: 4px 0;
+        border-radius: 6px;
+    }
+
+    .header-wrapper {
+        padding: 10px;
+    }
+
+    .card-container {
+        padding: 1rem;
+    }
+
+    .card-wrapper {
+        gap: 0.5rem;
+    }
+
+    .payment-card {
+        padding: 1rem;
+        height: auto;
+        width: 100%;
+    }
+
+    .table-wrapper {
+        padding: 1rem;
+    }
+
+    .table-container {
+        width: 100%;
+    }
+
+    .graphs {
+        grid-template-columns: 1fr;
+    }
+
+    .graphs .box, .graphs .box1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .hamburger {
         display: none;
     }
 }
