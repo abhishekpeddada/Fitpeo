@@ -1,9 +1,4 @@
 import '../../../src/styles/styles.css';
-import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFile } from '@fortawesome/free-solid-svg-icons';
-import { faWallet } from '@fortawesome/free-solid-svg-icons';
-import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 import Barchart from '../charts/Barchart';
 import Piechart from '../charts/Piechart';
 function Homepage() {
@@ -26,7 +21,7 @@ function Homepage() {
             <div className='card-wrapper'>
                 <div className='payment-card'>
                     <div className='card-header'>
-                    <i className='icon'><FontAwesomeIcon icon={faDollarSign} className='inside-icon' /></i>
+                    <i className='icon'><i className="fas fa-dollar-sign inside-icon"></i></i>
                         <div className='amount'>
                         <h3 className='card-main-title'>Earnings</h3>
                         <span className='title'>198k</span>
@@ -36,7 +31,7 @@ function Homepage() {
                 </div>
                 <div className='payment-card'>
                     <div className='card-header'>
-                    <i className='icon1'><FontAwesomeIcon icon={faFile} className='inside-icon1' /></i>
+                    <i className='icon1'><i className="fas fa-file inside-icon1"></i></i>
                         <div className='amount'>
                         <h3 className='card-main-title'>orders</h3>
                         <span className='title'>2.4 k</span>
@@ -46,7 +41,7 @@ function Homepage() {
                 </div>
                 <div className='payment-card'>
                     <div className='card-header'>
-                    <i className='icon2'><FontAwesomeIcon icon={faWallet} className='inside-icon2'/></i>
+                    <i className='icon2'><i className="fas fa-wallet inside-icon2"></i></i>
                         <div className='amount'>
                         <h3 className='title'>Balance</h3>
                         <span className='card-main-title'>2.4 k</span>
@@ -56,7 +51,7 @@ function Homepage() {
                 </div>
                 <div className='payment-card'>
                     <div className='card-header'>
-                    <i className='icon3'><FontAwesomeIcon icon={faShoppingBag} className='inside-icon3' /></i>
+                    <i className='icon3'><i className="fas fa-shopping-bag inside-icon3"></i></i>
                         <div className='amount'>
                         <h3 className='card-main-title'>Total sales</h3>
                         <span className='title'>89k</span>
