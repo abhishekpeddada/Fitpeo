@@ -1,5 +1,5 @@
 import '../../../src/styles/styles.css';
-import {FaDollarSign} from 'react-icons/fa';
+import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faWallet } from '@fortawesome/free-solid-svg-icons';
@@ -26,7 +26,7 @@ function Homepage() {
             <div className='card-wrapper'>
                 <div className='payment-card'>
                     <div className='card-header'>
-                    <i className='icon'><FaDollarSign className='inside-icon'/></i>
+                    <i className='icon'><FontAwesomeIcon icon={faDollarSign} className='inside-icon' /></i>
                         <div className='amount'>
                         <h3 className='card-main-title'>Earnings</h3>
                         <span className='title'>198k</span>
