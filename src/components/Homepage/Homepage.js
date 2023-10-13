@@ -26,41 +26,41 @@ function Homepage() {
             <div className='card-wrapper'>
                 <div className='payment-card'>
                     <div className='card-header'>
-                    <i className='icon'><FaDollarSign/></i>
+                    <i className='icon'><FaDollarSign className='inside-icon'/></i>
                         <div className='amount'>
-                        <h3 className='card-main-title'>Todays data</h3>
-                        <span className='title'>Payment amount</span>
-                        <span className='amount-value'>$5000</span>
+                        <h3 className='card-main-title'>Earnings</h3>
+                        <span className='title'>198k</span>
+                        <h4 className='amount-value'><span className='up-arrow'>↑ 37%</span> this month</h4>
                         </div>   
                     </div>
                 </div>
                 <div className='payment-card'>
                     <div className='card-header'>
-                    <i className='icon'><FontAwesomeIcon icon={faFile} /></i>
+                    <i className='icon1'><FontAwesomeIcon icon={faFile} className='inside-icon1' /></i>
                         <div className='amount'>
-                        <h3 className='card-main-title'>Todays data</h3>
-                        <span className='title'>Payment amount</span>
-                        <span className='amount-value'>$5000</span>
+                        <h3 className='card-main-title'>orders</h3>
+                        <span className='title'>2.4 k</span>
+                        <h4 className='amount-value'><span className='down-arrow'>↓ 2%</span>this month</h4>
                         </div>   
                     </div>
                 </div>
                 <div className='payment-card'>
                     <div className='card-header'>
-                    <i className='icon'><FontAwesomeIcon icon={faWallet} /></i>
+                    <i className='icon2'><FontAwesomeIcon icon={faWallet} className='inside-icon2'/></i>
                         <div className='amount'>
-                        <h3 className='card-main-title'>Todays data</h3>
-                        <span className='title'>Payment amount</span>
-                        <span className='amount-value'>$5000</span>
+                        <h3 className='title'>Balance</h3>
+                        <span className='card-main-title'>2.4 k</span>
+                        <h4 className='amount-value'><span className='down-arrow'>↓ 2%</span>this month</h4>
                         </div>   
                     </div>
                 </div>
                 <div className='payment-card'>
                     <div className='card-header'>
-                    <i className='icon'><FontAwesomeIcon icon={faShoppingBag} /></i>
+                    <i className='icon3'><FontAwesomeIcon icon={faShoppingBag} className='inside-icon3' /></i>
                         <div className='amount'>
-                        <h3 className='card-main-title'>Todays data</h3>
-                        <span className='title'>Payment amount</span>
-                        <span className='amount-value'>$5000</span>
+                        <h3 className='card-main-title'>Total sales</h3>
+                        <span className='title'>89k</span>
+                        <h4 className='amount-value'><span className='up-arrow'>↑ 11%</span>this week</h4>
                         </div>   
                     </div>
                 </div>
@@ -76,7 +76,7 @@ function Homepage() {
     </div>
     <div className='table-wrapper'>
         <div className='title-header'>
-            <h3 className='card-main-title'>Finanace Data</h3>
+            <h3 className='card-main-title'>Product Shell</h3>
             <input type='search' placeholder='search' className='search-main-title'/>
             <select className='search-main-title'>
                 <option>30days</option>
