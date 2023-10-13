@@ -216,9 +216,11 @@ tr:nth-child(even){
     background: #fff;
     align-items: center;
     padding: 20px;
-    width: 70%;
+    width: 100%;
     box-shadow: 0 7px 25px rgba(0,0,0,0.08);
     border-radius: 20px;
+    margin: auto;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -267,7 +269,7 @@ tr:nth-child(even){
         width: 100%;
     }
     .graphs .box1{
-        width: 50%;
+        width: 100%;
     }
 }
 
