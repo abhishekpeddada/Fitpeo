@@ -30,12 +30,12 @@ function Sidebar() {
     };
 
     const menuItems = [
-        { id: 1, name: 'Dashboard' },
-        { id: 2, name: 'Product' },
-        { id: 3, name: 'Customers' },
-        { id: 4, name: 'Income' },
-        { id: 5, name: 'Promote' },
-        { id: 6, name: 'Help' }
+        { id: 1, name: 'Dashboard', icon: "fas fa-chart-bar" },
+        { id: 2, name: 'Product', icon: "fas fa-shopping-cart" },
+        { id: 3, name: 'Customers', icon: "fa fa-users" },
+        { id: 4, name: 'Income', icon: "fa fa-dollar" },
+        { id: 5, name: 'Promote', icon: "fa fa-bullhorn" },
+        { id: 6, name: 'Help', icon: "fa fa-question-circle" }
     ];
 
     return (
@@ -44,7 +44,7 @@ function Sidebar() {
                 &#9776;
             </div>
             <div className={showSidebar ? "Sidebar" : "Sidebar hidden"}>
-                <div className="logo">Dashboard</div>
+                <div className="logo"><i class="fa fa-cog" aria-hidden="true"></i> Dashboard</div>
                 <ul className="menu">
                     {menuItems.map((item) => (
                         <li
@@ -53,7 +53,7 @@ function Sidebar() {
                             key={item.id}
                         >
                             <a href="#">
-                                {item.name}
+                            <i className={item.icon} style={{ fontSize: '12px' }}></i> {item.name}
                             </a>
                         </li>
                     ))}
