@@ -8,7 +8,18 @@
     flex-wrap: wrap;
     border-radius: 5px;
 }
-
+.barchart-header{
+    display: flex;
+    justify-content: space-between;
+}
+.selector{
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.earnings{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}
 .bar-container {
     display: flex;
     flex-direction: column;
