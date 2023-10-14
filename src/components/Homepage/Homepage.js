@@ -23,8 +23,8 @@ function Homepage() {
                     <div className='card-header'>
                     <i className='icon'><i className="fas fa-dollar-sign inside-icon"></i></i>
                         <div className='amount'>
-                        <h3 className='card-main-title'>Earnings</h3>
-                        <span className='title'>198k</span>
+                        <p className='card-main-title title'>Earnings</p>
+                        <span><i className="fas fa-dollar-sign"></i>198k</span>
                         <h4 className='amount-value'><span className='up-arrow'>↑ 37%</span> this month</h4>
                         </div>   
                     </div>
@@ -33,8 +33,8 @@ function Homepage() {
                     <div className='card-header'>
                     <i className='icon1'><i className="fas fa-file inside-icon1"></i></i>
                         <div className='amount'>
-                        <h3 className='card-main-title'>orders</h3>
-                        <span className='title'>2.4 k</span>
+                        <p className='card-main-title title'>orders</p>
+                        <span><i className="fas fa-dollar-sign"></i>2.4 k</span>
                         <h4 className='amount-value'><span className='down-arrow'>↓ 2%</span>this month</h4>
                         </div>   
                     </div>
@@ -43,8 +43,8 @@ function Homepage() {
                     <div className='card-header'>
                     <i className='icon2'><i className="fas fa-wallet inside-icon2"></i></i>
                         <div className='amount'>
-                        <h3 className='title'>Balance</h3>
-                        <span className='card-main-title'>2.4 k</span>
+                        <p className='title'>Balance</p>
+                        <span><i className="fas fa-dollar-sign"></i>2.4 k</span>
                         <h4 className='amount-value'><span className='down-arrow'>↓ 2%</span>this month</h4>
                         </div>   
                     </div>
@@ -53,8 +53,8 @@ function Homepage() {
                     <div className='card-header'>
                     <i className='icon3'><i className="fas fa-shopping-bag inside-icon3"></i></i>
                         <div className='amount'>
-                        <h3 className='card-main-title'>Total sales</h3>
-                        <span className='title'>89k</span>
+                        <p className='card-main-title title'>Total sales</p>
+                        <span><i className="fas fa-dollar-sign"></i>89k</span>
                         <h4 className='amount-value'><span className='up-arrow'>↑ 11%</span>this week</h4>
                         </div>   
                     </div>
