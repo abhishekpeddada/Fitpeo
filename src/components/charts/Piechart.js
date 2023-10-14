@@ -35,7 +35,7 @@ const Piechart = () => {
 </defs>
 </svg>
 				</div>
-				<p>Total: $2075</p>
+				<p>65% Total New Customers</p>
 			</div>
             </div>
     );

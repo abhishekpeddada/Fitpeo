@@ -13,6 +13,8 @@
 
 .graph-container {
 	position: relative;
+	margin-top: 80px;
+	margin-right: 80px;
 }
 
 .percent {
