@@ -22,7 +22,9 @@
     transition: left 6s ease;
     background: #0B0C40;
 }
-
+.Sidebar.hidden{
+    display: none;
+}
 .hamburger {
     color: white;
     position: fixed;
